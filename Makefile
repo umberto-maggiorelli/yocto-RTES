@@ -1,4 +1,4 @@
 LDFLAGS=-pthread
 
 build:
-	${CC} corsa.c ${LDFLAGS} -o corsa
+	${CC} pthreadapp.c ${LDFLAGS} -o pthreadapp
